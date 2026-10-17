@@ -1,0 +1,10 @@
+{
+  "name": "cuidadoras",
+  "private": true,
+  "type": "module",
+  "description": "App offline para iPad que calcula el sueldo de las cuidadoras.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "node tools/serve.js"
+  }
+}

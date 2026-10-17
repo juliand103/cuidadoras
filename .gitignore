@@ -1,0 +1,7 @@
+# Datos y notas privadas: no se publican
+privado/
+brainstorms/
+.claude/
+
+node_modules/
+*.log
