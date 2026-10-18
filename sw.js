@@ -1,6 +1,6 @@
 // Guarda la app en el iPad para que funcione sin internet.
 // Al publicar cambios, subir VERSION para que el iPad baje la versión nueva.
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = `cuidadoras-${VERSION}`;
 
 const FILES = [
@@ -14,7 +14,6 @@ const FILES = [
   'icons/icon-180.png',
   'icons/icon-192.png',
   'icons/icon-512.png',
-  'icons/logo.svg',
   'js/app.js',
   'js/backup.js',
   'js/dates.js',

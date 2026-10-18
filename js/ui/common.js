@@ -82,7 +82,6 @@ export function Rail({ screen }) {
   ];
   const active = screen === 'semana' ? 'calendario' : screen;
   return html`<nav class="rail" aria-label="Secciones">
-    <div class="brand"><img src="icons/logo.svg" alt="" width="80" height="80" /><span>Sueldos Tata</span></div>
     ${items.map(([key, label, icon, href]) => html`
       <a href=${href} aria-current=${active === key ? 'page' : undefined}>
         <${Icon} name=${icon} size=${34} /><span>${label}</span>
