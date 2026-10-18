@@ -11,7 +11,7 @@ export async function makeBackup() {
   const st = getState();
   const today = todayISO();
   const data = { ...st, version: SCHEMA_VERSION, exportedAt: today };
-  const file = new File([JSON.stringify(data)], `cuidadoras-copia-${today}.json`, { type: 'application/json' });
+  const file = new File([JSON.stringify(data)], `sueldos-tata-copia-${today}.json`, { type: 'application/json' });
   const done = await shareFile(file, `Copia de seguridad del ${dmy(today)}`);
   if (!done) return;
   const cur = getState();

@@ -1,4 +1,4 @@
-# Cuidadoras
+# Sueldos Tata
 
 Offline iPad web app for working out the caregivers' pay: shifts, holidays ×2, vacations, aguinaldo, payments and saldos. The UI is in Spanish (Argentina).
 
@@ -21,7 +21,7 @@ npm test
 ## Put it on the iPad
 
 1. Publish this folder as a static site, for example on GitHub Pages: create a repository, push this folder, then go to Settings › Pages › Deploy from branch `main` / root.
-2. On the iPad, open the site's address in **Safari**, tap Share › **Add to Home Screen**, and open the new **Cuidadoras** icon once while connected to the internet.
+2. On the iPad, open the site's address in **Safari**, tap Share › **Add to Home Screen**, and open the new **Sueldos Tata** icon once while connected to the internet.
 3. From then on, use only the Home Screen icon. It works without internet. Data saved there is separate from Safari's, so don't load data in a Safari tab.
 4. Load the starting data once: run `node privado/datos-iniciales.js` on the computer, send `privado/cuidadoras-datos-iniciales.json` to the iPad (WhatsApp or AirDrop › save to Files), then in the app go to Configuración › Copia de seguridad › **Recuperar copia** and pick that file.
 

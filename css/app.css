@@ -101,6 +101,9 @@ h1, h2, h3, p { margin: 0; }
   font-weight: 700;
 }
 .rail a[aria-current='page'] { background: var(--teal); color: #FFFFFF; }
+.rail .brand { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 4px 0 6px; }
+.rail .brand img { width: 80px; height: 80px; border-radius: 18px; display: block; }
+.rail .brand span { font-size: 18px; line-height: 22px; font-weight: 800; color: var(--teal-dark); text-align: center; }
 .rail .today { margin-top: auto; padding: 8px 4px; text-align: center; color: var(--muted); line-height: 1.25; }
 .rail .today b { color: var(--ink); }
 
